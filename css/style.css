@@ -817,3 +817,89 @@ img {
 }
 
 /* Places styles end */
+
+/* Tours styles start */
+
+.tours {
+  margin-bottom: 139px;
+}
+
+.tours__tour {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0 108px;
+  align-items: center;
+  margin-bottom: 77px;
+}
+
+.tour__info {
+  padding-left: 47px;
+}
+
+.tour__title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 85px;
+}
+
+.tour__desc {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 58px;
+}
+.tour__more {
+  color: #006dfe;
+  font-size: 16px;
+  line-height: 24px;
+  padding-right: 59px;
+  text-decoration: none;
+  background: url(../img/svg/arrow.svg) no-repeat 95% center;
+  transition: 0.2s all;
+  margin-bottom: 104px;
+}
+.tour__more:hover,
+.tour__more :focus {
+  background: url(../img/svg/arrow.svg) no-repeat right center;
+}
+
+/* Tours styles end */
+
+/* Top places to visit start */
+
+.top {
+  margin-bottom: 86px;
+}
+
+.top__title {
+  margin-bottom: 54px;
+}
+
+.top__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.top__card-thumb {
+  margin-bottom: 45px;
+}
+.top__card-desc {
+  max-width: 391px;
+  font-size: 16px;
+  line-height: 24px;
+
+  margin-bottom: 31px;
+}
+.top__card-button {
+  width: 118px;
+  height: 42px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+  background: #1b7dff;
+  color: white;
+  border: 0;
+  margin-bottom: 58px;
+}
+/* Top places to visit end */
